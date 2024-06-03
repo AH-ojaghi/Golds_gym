@@ -1,0 +1,50 @@
+.swiper {
+  width: 20rem;
+  height: fit-content;
+}
+.swiper-wrapper {
+  width: fit-content;
+  gap: 1rem;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  object-fit: cover;
+}
+.swiper-button-next{
+  display: none;
+}
+
+@media only screen and (min-width: 370px) {
+  .swiper,
+  .swiper-wrapper {
+    width: 25rem;
+  }
+}
+@media only screen and (min-width: 425px) {
+  .swiper,
+  .swiper-wrapper {
+    width: 30rem;
+  }
+}
+@media only screen and (min-width: 640px) {
+  .swiper,
+  .swiper-wrapper {
+    width: 40rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .swiper-wrapper {
+    width: 50rem;
+  }
+}
